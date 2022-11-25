@@ -37,5 +37,7 @@ Se realizo un backend con Firebase.
 
 ## ScreenShots
 
-[url=https://postimg.cc/hJq8r1cV][img]https://i.postimg.cc/hJq8r1cV/imagen01.png[/img][/url]
-[url=https://postimg.cc/PvN1x6Qn][img]https://i.postimg.cc/PvN1x6Qn/imagen02.png[/img][/url]
+[![imagen01.png](https://i.postimg.cc/tgsr9Bcv/imagen01.png)](https://postimg.cc/hJq8r1cV)
+[![imagen03.png](https://i.postimg.cc/90h1tCQs/imagen03.png)](https://postimg.cc/2b04Cpvx)
+[![imagen04.png](https://i.postimg.cc/767m2fwg/imagen04.png)](https://postimg.cc/mzLYxZcD)
+[![imagen05.png](https://i.postimg.cc/R02ghc5S/imagen05.png)](https://postimg.cc/GBJFSTmV)

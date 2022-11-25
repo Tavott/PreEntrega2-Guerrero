@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ItemList from './ItemList';
 import { useParams } from 'react-router-dom';
-
+import LoadingSpinner from '../../Loading/Loading';
 import { collection, getDocs, query, where } from 'firebase/firestore';
 import { db } from '../../../services/firebase_config';
 
@@ -37,7 +37,14 @@ const ItemListContainer = () => {
 
         return () => setLoading(true);
     }, [categoryName]);
-
+    
+    if (loading) {
+        return (
+            <div className="container">
+                <LoadingSpinner />
+            </div>
+        );
+    }
 
     return (
         <div className="container">

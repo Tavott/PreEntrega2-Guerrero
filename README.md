@@ -1,4 +1,4 @@
-# Component Steam
+# Component Steam 🧊
 
 ## E-commerce Comision 45060
 
@@ -18,7 +18,7 @@ Al realizar el checkout de la compra se solicita llenar un formulario con datos 
 -Netlify: Ofrece una plataforma de desarrollo en este caso la utilizamos para poder publicar nuestra aplicacion. https://www.netlify.com/
 
 ## Correr proyecto
-- Se puede clonar el proyecto utilizando el siguiente comando.
+🔸 Se puede clonar el proyecto utilizando el siguiente comando.
 ```bash
   git clone https://github.com/Tavott/eComercePF-Guerrero 
 ```
@@ -33,9 +33,9 @@ npm start
 ```
 ## Backend
 
-Se realizo un backend con Firebase.
+🔸Se realizo un backend con Firebase.
 
-## ScreenShots
+## ScreenShots 🍾
 
 [![imagen01.png](https://i.postimg.cc/tgsr9Bcv/imagen01.png)](https://postimg.cc/hJq8r1cV)
 [![imagen03.png](https://i.postimg.cc/90h1tCQs/imagen03.png)](https://postimg.cc/2b04Cpvx)

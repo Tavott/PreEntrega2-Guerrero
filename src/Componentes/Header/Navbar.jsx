@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CartWidget from './CartWidget';
 import Logo from '../../assets/logo.jpg';
 import { Link, NavLink } from 'react-router-dom';
-import LoadingSpinner from '../Loading/Loading';
+// import LoadingSpinner from '../Loading/Loading';
 
 
 const Navbar = ({ isInHeader }) => {

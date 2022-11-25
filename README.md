@@ -1,6 +1,6 @@
-#Component Steam
+# Component Steam
 
-##E-commerce Comision 45060
+## E-commerce Comision 45060
 
 Este proyecto fue creado para el Curso de RectJS. Es un E-comerce centrado en la venta de perifericos para PC.
 Esta pagina esta conectado a un backend realizado con `Firebase`.

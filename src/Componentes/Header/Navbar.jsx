@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CartWidget from './CartWidget';
 import Logo from '../../assets/logo.jpg';
 import { Link, NavLink } from 'react-router-dom';
-// import LoadingSpinner from '../Loading/Loading';
+
 
 
 const Navbar = ({ isInHeader }) => {
-    const [loading, setLoading] = useState(true);
+    // const [loading, setLoading] = useState(true);
     return (
         <nav className="navbar">
             <h1>

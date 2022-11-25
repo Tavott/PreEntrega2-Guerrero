@@ -11,16 +11,16 @@ Al realizar el checkout de la compra se solicita llenar un formulario con datos 
 **https://papaya-otter-8eac77.netlify.app**
 
 **Tecnologías y librerías:**
-- Interfaz realizada con **ReactJS - Create React App**
+- Interfaz realizada con **ReactJS - Create React App** 
 - Estilos con **Bootstrap**, **Material-UI**
 - Ruteo con **React Router Dom**
 - Backend con **Firebase**
-
+-Netlify: Ofrece una plataforma de desarrollo en este caso la utilizamos para poder publicar nuestra aplicacion. https://www.netlify.com/
 
 ## Correr proyecto
 - Se puede clonar el proyecto utilizando el siguiente comando.
 ```bash
-  git clone
+  git clone https://github.com/Tavott/eComercePF-Guerrero 
 ```
 ## Instalar dependencias.
 ```bash
@@ -33,5 +33,9 @@ npm start
 ```
 ## Backend
 
-Se realizo un backend con Firebase, por si quieren descargar y correr este proyecto, tienen que generar su backend en firebase sino local con data fake.
-En el archivo `.env.example` estan las variables que deben ir para poder llenarlas con sus datos de Firebase.
+Se realizo un backend con Firebase.
+
+## ScreenShots
+
+[url=https://postimg.cc/hJq8r1cV][img]https://i.postimg.cc/hJq8r1cV/imagen01.png[/img][/url]
+[url=https://postimg.cc/PvN1x6Qn][img]https://i.postimg.cc/PvN1x6Qn/imagen02.png[/img][/url]

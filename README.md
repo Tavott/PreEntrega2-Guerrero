@@ -11,10 +11,17 @@ Al realizar el checkout de la compra se solicita llenar un formulario con datos 
 **https://papaya-otter-8eac77.netlify.app**
 
 **Tecnologías y librerías:**
-- Interfaz realizada con **ReactJS - Create React App** 
-- Estilos con **Bootstrap**, **Material-UI**
-- Ruteo con **React Router Dom**
-- Backend con **Firebase**
+- Interfaz realizada con **ReactJS - Create React App**  **https://es.reactjs.org/**
+
+- NPM (Node Packager Manager): Sistema de Gestion de paquetes.A partir de esta herramiento se fueron instalando librerias. **https://es.reactjs.org/**
+
+- Estilos con **Bootstrap**, **Material-UI** Boostrap React, se utiliza para poder dar estilos y adecudar los elementos.
+**https://react-bootstrap.github.io** **https://mui.com**
+
+- Ruteo con **React Router Dom** **https://reactrouter.com/en/main**
+
+- Backend con **Firebase** Servicio provisto por Google, para ayudar al ciclo de desarrollo de una aplicacion.En este caso se utilizo para almacenar Item(productos) y Ordenes de Compras.
+
 -Netlify: Ofrece una plataforma de desarrollo en este caso la utilizamos para poder publicar nuestra aplicacion. https://www.netlify.com/
 
 ## Correr proyecto

@@ -1,13 +1,17 @@
 import Navbar from '../Header/Navbar';
 //import Layout from '../Layout';
-
+import "../Footer/Footer.css"
 const Footer = () => {
     return (
         <footer>
-            {/* <Layout>
-                <h5>hola</h5>
-            </Layout> */}
-            <Navbar isInHeader={false} />
+            <Navbar isInHeader={false} />           
+            <div className="copyright">
+                © 2022 Copyright
+                <a href="https://www.linkedin.com/in/gustavo-guerrero-15a525b8/" target="blank">
+                    {" "}
+                    Gustavo Guerrero
+                </a>
+            </div>
         </footer>
     );
 };

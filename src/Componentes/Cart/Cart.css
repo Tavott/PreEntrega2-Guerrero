@@ -1,0 +1,15 @@
+.checkout {  
+    background-color: rgb(22, 12, 12);
+    margin: 10px;
+    border-radius: 8px;
+    padding: 15px;
+    
+    color: rgb(240, 240, 240);
+}
+
+.Mensaje {
+    color: rgb(6, 5, 5);
+    margin: 10px;
+    border-radius: 8px;
+    padding: 15px;
+}

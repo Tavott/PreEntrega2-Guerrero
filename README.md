@@ -8,7 +8,7 @@ Permite agregar varios productos a un carrito de compra. Tambien se puede ver el
 Al realizar el checkout de la compra se solicita llenar un formulario con datos basicos. Una vez realizada la accion se genera un id de Orden para el usuario y en firebase se guarda la orden con los productos que compró.
 
 ## :computer: Link de la pagina en Netfly:
-****
+**https://papaya-otter-8eac77.netlify.app**
 
 **Tecnologías y librerías:**
 - Interfaz realizada con **ReactJS - Create React App**

@@ -8,7 +8,7 @@ Permite agregar varios productos a un carrito de compra. Tambien se puede ver el
 Al realizar el checkout de la compra se solicita llenar un formulario con datos basicos. Una vez realizada la accion se genera un id de Orden para el usuario y en firebase se guarda la orden con los productos que compró.
 
 ## :computer: Link de la pagina en Netfly:
-**https://papaya-otter-8eac77.netlify.app**
+_[Steam Component.](https://papaya-otter-8eac77.netlify.app)
 
 **Tecnologías y librerías:**
 - Interfaz realizada con **ReactJS - Create React App**  **https://es.reactjs.org/**
@@ -17,6 +17,12 @@ Al realizar el checkout de la compra se solicita llenar un formulario con datos 
 
 - Estilos con **Bootstrap**, **Material-UI** Boostrap React, se utiliza para poder dar estilos y adecudar los elementos.
 **https://react-bootstrap.github.io** **https://mui.com**
+
+-Framer-Motion  Se utilizo para materializar algunas opciones, animaciones, etc. **https://www.npmjs.com/package/framer-motion**
+
+-react-icons Se utilizo react-Icons, para utilizacion de Iconos, para Cart y Seguimiento. **http://react-icons.github.io/react-icons/icons?name=ai**
+
+-sweetalert2 Se agrego Api para alertas. Se utilizo principalmente en la busqueda de Orden de seguimiento del Producto. **https://sweetalert2.github.io**
 
 - Ruteo con **React Router Dom** **https://reactrouter.com/en/main**
 

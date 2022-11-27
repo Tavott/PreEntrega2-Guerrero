@@ -38,8 +38,8 @@ li {
     margin: 0px 10px;
 }
 
-.link-style{
-display: flex;
+.link-style {
+    display: flex;
 }
 
 
@@ -57,14 +57,14 @@ display: flex;
     min-height: 75vh;
 }
 
-.container-spin{
+.container-spin {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 30px;
     min-height: 75vh;
     /* color:black; */
-    
+
 }
 
 
@@ -140,16 +140,6 @@ main {
     font-size: 18px;
 }
 
-/* .descuento {
-    position: absolute;
-    top: -6px;
-    right: -6px;
-    background-color: rgb(224, 35, 35);
-    display: inline-block;
-    padding: 4px 6px;
-    border-radius: 8px;
-    font-size: 15px;
-} */
 
 .btn-detalle {
     text-decoration: none;
@@ -168,6 +158,19 @@ main {
     margin: 10px;
     border-radius: 8px;
     padding: 15px;
+}
+
+.detail-boton Button {
+    color: white;
+    background-color: white;
+    text-decoration: none;
+    
+}
+
+.detail-boton Button Link {
+    /* text-align: center; */
+    text-decoration: none;
+
 }
 
 .detail {

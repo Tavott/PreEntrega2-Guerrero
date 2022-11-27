@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import Contador from '../Contador';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../../../context/CartContext';
+import Button from 'react-bootstrap/Button';
 
 const ItemDetail = ({ item }) => {
     const [show, setShow] = useState(true);
@@ -23,17 +24,23 @@ const ItemDetail = ({ item }) => {
                     {item.descripcion}
                 </p>
                 <h3>${item.price}.-</h3>
-                <Link to={`/`}>Mira mas productos</Link>
-                {show ? (
-                    <Contador
-                        stock={item.stock}
-                        onAdd={onAdd}
-                        initial={cantidad}
-                    />
-                ) : (
-                    <Link to='/cart'>Ir al Carrito</Link>                        
-                                    
-                )}
+                <div className="detail-boton">
+                    <Button variant="outline-danger">
+                        <Link to={`/`}>Mira mas productos</Link>
+                    </Button>
+                    {show ? (
+                        <Contador
+                            stock={item.stock}
+                            onAdd={onAdd}
+                            initial={cantidad}
+                        />
+                    ) : (
+                        <Button variant="outline-danger">
+                            <Link to='/cart'>Ir al Carrito</Link>
+                        </Button>
+
+                    )}
+                </div>
             </article>
         </div>
     );

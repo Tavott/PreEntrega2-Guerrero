@@ -1,14 +1,16 @@
-.container {
+/* .container {
     color: rgb(9, 9, 9);
     text-decoration: none;
-}
+} */
 
 .form-style {
-    box-shadow: inherit;
+
+    /* box-shadow: inherit;
     display: flex;
     justify-content: center;
     align-Items: center;
     flex-Wrap: wrap;
-    flex-Direction: column;
-    margin-Top: 30px;
+    flex-Direction: column; */
+    /* margin-Top: 30px; */
+    /* padding: 30px; */
 }

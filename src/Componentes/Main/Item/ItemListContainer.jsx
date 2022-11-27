@@ -40,7 +40,7 @@ const ItemListContainer = () => {
     
     if (loading) {
         return (
-            <div className="container">
+            <div className="container-spin">
                 <LoadingSpinner />
             </div>
         );

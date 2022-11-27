@@ -33,7 +33,7 @@ const ItemDetailContainer = () => {
 
     if (loading) {
         return (
-            <div className="detail-container">
+            <div className="container-spin">
                 <LoadingSpinner />
             </div>
         );

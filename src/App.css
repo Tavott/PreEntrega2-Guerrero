@@ -51,6 +51,17 @@ li {
     min-height: 75vh;
 }
 
+.container-spin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    min-height: 75vh;
+    /* color:black; */
+    
+}
+
+
 main {
     min-height: 80vh;
     margin: 20px;

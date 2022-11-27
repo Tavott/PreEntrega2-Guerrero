@@ -20,10 +20,7 @@ const ItemDetail = ({ item }) => {
             <article>
                 <h2>{item.title}</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Natus optio, necessitatibus iusto odit cupiditate a quae
-                    tempora dolor earum laboriosam hic distinctio. Nemo odit
-                    laboriosam quasi! Temporibus fugit omnis deleniti?
+                    {item.descripcion}
                 </p>
                 <h3>${item.price}.-</h3>
                 <Link to={`/`}>Mira mas productos</Link>

@@ -2,7 +2,8 @@ import './App.css';
 import Header from './Componentes/Header/Header';
 import Footer from './Componentes/Footer/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
+// import "bootstrap/dist/js/bootstrap.min.js";
+import Track from './Componentes/Track/Track';
 // import CssBaseline from "@material-ui/core/CssBaseline";
 
 import ItemListContainer from './Componentes/Main/Item/ItemListContainer';
@@ -30,6 +31,7 @@ const App = () => {
                     />
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/checkout" element ={<Form />} />
+                    <Route path="/track" element ={<Track />} />
                 </Routes>
                 <Footer />
             </CartProvider>

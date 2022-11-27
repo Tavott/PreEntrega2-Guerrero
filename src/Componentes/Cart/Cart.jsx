@@ -7,7 +7,7 @@ import Checkout from '../Checkout/Checkout'
 import "./Cart.css";
 
 const Cart = () => {
-    const { cart} = useContext(CartContext);
+    const { cart } = useContext(CartContext);
     const messageConditional = (
         <div className="Mensaje">Ops!
             <h2>!Tu carrito esta Vacio!</h2>

@@ -6,19 +6,13 @@ const loadingContainer = {
     height: "4rem",
     display: "flex",
     justifyContent: "space-between",
-    //alignitems: "center",
-    //flexwrap: "wrap",
-    //text-align: "center",
+
 };
 const loadingCircle = {
-    
-    //display: "block",
     width: "1rem",
     height: "1rem",
     backgroundColor: "black",
-    //color: #f4f4fc;
     borderRadius: "0.5rem",
-    //alignitems: "center",
 };
 
 const loadingContainerVariants = {

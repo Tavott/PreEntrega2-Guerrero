@@ -3,7 +3,6 @@ import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../services/firebase_config";
 import Swal from 'sweetalert2';
 
-
 const Track = () => {
     const [idOrden, setIdOrden] = useState('');
     const handleOrder = (e) => setIdOrden(e.target.value);
@@ -39,6 +38,7 @@ const Track = () => {
                 console.log(error);
             })
     }
+    
 
     if (!loading) {
         return (

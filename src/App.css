@@ -34,8 +34,14 @@ li {
     padding: 4px 6px;
     text-decoration: none;
     color: rgb(242, 229, 229);
+    justify-content: space-between;
     margin: 0px 10px;
 }
+
+.link-style{
+display: flex;
+}
+
 
 .active {
     border: 1px solid rgb(241, 238, 238);
@@ -121,7 +127,6 @@ main {
 
 .info-price h5 {
     font-size: 16px;
-    text-decoration: line-through;
     margin-left: 10px;
     background-color: rgb(64, 64, 107);
     padding: 4px;
@@ -135,7 +140,7 @@ main {
     font-size: 18px;
 }
 
-.descuento {
+/* .descuento {
     position: absolute;
     top: -6px;
     right: -6px;
@@ -144,7 +149,7 @@ main {
     padding: 4px 6px;
     border-radius: 8px;
     font-size: 15px;
-}
+} */
 
 .btn-detalle {
     text-decoration: none;
@@ -203,6 +208,10 @@ main {
 .Checkout {
     color: white;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .counter {

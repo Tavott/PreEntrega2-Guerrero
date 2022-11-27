@@ -1,5 +1,4 @@
 import Navbar from '../Header/Navbar';
-//import Layout from '../Layout';
 import "../Footer/Footer.css"
 const Footer = () => {
     return (

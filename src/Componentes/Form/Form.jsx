@@ -5,8 +5,6 @@ import { CartContext } from "../../context/CartContext";
 import { db } from "../../services/firebase_config";
 
 
-import "../Form/Form.css"
-
 const Form = () => {
     const [name, setName] = useState('');
     const [lastName, setLastName] = useState('');

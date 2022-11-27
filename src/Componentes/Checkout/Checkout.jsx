@@ -11,23 +11,22 @@ const Cart = () => {
     return (
         <div>
             {cart.map((prod) => (
-                <div key={prod.id}>
+                <div className='checkout' key={prod.id}>
                     <img className='imgCheck' src={prod.imageID} alt={prod.title} width="60px" />
-                    <div className='checkout'>
-                        <h3>{prod.title}</h3>
-                        <h3>Cantidad: {prod.cantidad}</h3>
-                        <button className="btn btn-primary" onClick={() => deleteOne(prod.id)}>
-                            Eliminar
-                        </button>
+                    <h3>{prod.title}</h3>
+                    <h4>Cantidad: {prod.cantidad}</h4>
+                    <h4>$ {prod.price}</h4>
+                    <button className="btn btn-primary" onClick={() => deleteOne(prod.id)}>
+                        Eliminar
+                    </button>
 
-                    </div>
                 </div>
             ))}
             <h2>Total: {totalPrecio()} $</h2>
             <button className="btn btn-primary" onClick={deleteAll}>Vaciar carrito</button>
             <div className='Checkout'>
-                
-                <Link className="btn btn-secondary"  to='/checkout'>Checkout</Link>
+
+                <Link className="btn btn-secondary" to='/checkout'>Checkout</Link>
                 <Link className="btn btn-secondary" to={`/`}>Mira mas productos</Link>
             </div>
         </div>
